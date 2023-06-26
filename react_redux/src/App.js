@@ -8,7 +8,7 @@ function App() {
     dispatch({type:'INC'})
   }
   const decrement=()=>{
-
+    dispatch({type: 'DCR'})
   }
   return (
     <div >
